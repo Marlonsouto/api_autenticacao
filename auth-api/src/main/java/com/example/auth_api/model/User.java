@@ -1,8 +1,6 @@
 package com.example.auth_api.model;
 
 import jakarta.persistence.*;
-import org.antlr.v4.runtime.misc.NotNull;
-
 @Entity
 @Table(name = "tb_users")
 public class User {
