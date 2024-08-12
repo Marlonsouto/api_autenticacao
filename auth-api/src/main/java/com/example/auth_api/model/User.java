@@ -13,6 +13,15 @@ public class User {
     private String login;
     private String senha;
 
+    public User() {
+    }
+
+    public User(String nome, String login, String senha) {
+        this.nome = nome;
+        this.login = login;
+        this.senha = senha;
+    }
+
     public Long getId() {
         return id;
     }
